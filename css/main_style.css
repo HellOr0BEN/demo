@@ -1,0 +1,108 @@
+/* Importing style from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    position: relative;
+
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Bebas Neue', sans-serif;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.2em;
+}
+
+/* Working on the header */
+header{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    gap: 2em;
+    justify-content: space-between;
+    
+    padding: 1em 5em;
+
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+header div.title{
+    text-align: left;
+}
+
+header div.nav{
+    display: grid;
+    align-items: center;
+}
+
+header div.nav ul{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+header div.nav li{
+    list-style-type: none;
+
+}
+header div.nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header div.nav li.current a{
+    text-decoration: none;
+    color: rgb(230, 255, 220);
+}
+/* Header complete */
+
+
+/*Footer start*/
+footer{
+    width: 100%;
+    display: grid;
+    padding: 1em 3em;
+
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+}
+footer ul{
+    display: grid;
+}
+footer ul li{
+    list-style-type: none;
+}
+/*Footer complete*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

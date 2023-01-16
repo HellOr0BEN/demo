@@ -1,0 +1,92 @@
+
+/* Main section Styling */
+main{
+    margin: 50px;
+    max-width: 1200px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+main > div.product_ecom,
+main > div.title_ecom > div{
+    padding: 50px;
+}
+
+
+/* Main headding */
+main div.title_ecom{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+}
+/* Main Heading Head*/
+main div.title_ecom div.head{
+    background-color: rgb(19, 46, 53);
+    height: 100%;
+}
+main div.title_ecom div.head img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(129, 85, 85);
+    margin-bottom: 20px;
+}
+
+/* Main headding items */
+main div.title_ecom div.item_option{
+    padding: 30px;
+}
+main div.item_option ul{
+    display: grid;
+    gap: 1em;
+}
+main div.item_option ul li{
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+main div.item_option ul li.current{
+    color: rgb(34, 187, 29);
+}
+
+
+/* ---------Main Headding Complete--------------- */
+
+
+
+main div.product_ecom{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main > div.product_ecom > div.product {
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+}
+main > div.product_ecom > div.product > figure > img {
+    width: 150px;
+    height: 150px;
+}
+main > div.product_ecom > div.product > figure > div {
+    width: 100%;
+    margin: 10px auto 30px;
+    height: 5px;
+    background-color: rgb(255, 217, 0);
+}
+
+main > div.product_ecom> div.product > figure > figcaption{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    text-align: left;
+    font-size: 14px;
+}

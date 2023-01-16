@@ -1,0 +1,46 @@
+main{
+    padding: 50px 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+main p{
+    line-height: 1;
+}
+
+.blog figure{
+    float: right;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.blog img{
+    height: 200px;
+}
+
+
+/*Form part*/
+form{
+    margin-top: 20px;
+    padding: 10px;
+    display: grid;
+    justify-self: center;
+    grid-gap: 10px;
+    text-align: left;
+    background: rgba(177, 170, 110, 0.397);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+}
+form input{
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#submit:hover{
+    background-color: rgb(77, 233, 181);
+}
+
+
+
+
